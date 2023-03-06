@@ -1,0 +1,25 @@
+/* Selektor ma większą specyficzność niz header
+więc kolor tekstu się zmieni
+Czy to dobre rozwiązanie?
+Tak, ale moze być lepsze - przypisać dodatkową klasę */
+aside .article-header {
+    text-transform: uppercase;
+    color: red;
+}
+
+header {
+    color: #fff;
+}
+
+.main-header {
+    background-color: #eee;
+}
+
+.section-header {
+    background-color: #268d88;
+}
+
+.article-header {
+    background-color: #526833;
+    padding: 10px;
+}

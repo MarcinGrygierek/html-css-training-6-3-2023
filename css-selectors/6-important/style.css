@@ -1,0 +1,7 @@
+.section-header {
+    color: blue !important;
+}
+
+main article section .element-header .section-header {
+   color: pink; 
+}

@@ -1,0 +1,18 @@
+.main-header {
+    background-color: #eee;
+}
+
+.section-header {
+    background-color: #268d88;
+}
+
+.article-header {
+    background-color: #526833;
+    padding: 10px;
+    color: #fff;
+}
+
+.aside-header {
+    text-transform: uppercase;
+    color: red;
+}
