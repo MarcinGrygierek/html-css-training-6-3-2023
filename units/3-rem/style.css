@@ -1,0 +1,22 @@
+html {
+    font-size: 20px;
+}
+
+.box {
+    width: 20rem;
+    height: 20rem;
+
+    background: #999;
+    padding: 20px;
+    border: 10px solid red;
+
+    /* Ustawienie traktowania
+    paddingu i border jako wchodzące w skład
+    width i height,
+    wartość domyślna: content-box */
+    box-sizing: border-box;
+}
+
+.box-header {
+    font-size: 0.5rem;
+}

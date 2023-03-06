@@ -1,0 +1,7 @@
+/* 640 391 */
+
+.image-bg {
+    width: 640px;
+    height: 391px;
+    background-image: url("assets/product.jpg");
+}

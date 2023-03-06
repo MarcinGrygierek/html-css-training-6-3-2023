@@ -1,0 +1,26 @@
+.parent {
+    font-size: 20px;
+}
+
+.box {
+    /* em przyjmie wartość font-size zapisanego wewnątrz tego elementu,
+    jezeli element nie posiadałby własnej właściwości font-size
+    to skorzystałby z font-size rodzica */
+    width: 20em;
+    height: 20em;
+
+    font-size: 1em;
+    background: #999;
+    padding: 20px;
+    border: 10px solid red;
+
+    /* Ustawienie traktowania
+    paddingu i border jako wchodzące w skład
+    width i height,
+    wartość domyślna: content-box */
+    box-sizing: border-box;
+}
+
+.box-header {
+    font-size: 0.5em;
+}

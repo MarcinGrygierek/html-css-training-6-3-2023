@@ -1,0 +1,19 @@
+.box {
+    /* vw - % szerokości viewportu */
+    width: 50vw;
+    /* vw - % wysokości viewportu */
+    height: 50vh;
+
+    /* % rozmiar fontu odnosi się do rozmiaru fontu określonego w rodzicu */
+    font-size: 50%;
+
+    background: #999;
+    padding: 20px;
+    border: 10px solid red;
+
+    /* Ustawienie traktowania
+    paddingu i border jako wchodzące w skład
+    width i height,
+    wartość domyślna: content-box */
+    box-sizing: border-box;
+}

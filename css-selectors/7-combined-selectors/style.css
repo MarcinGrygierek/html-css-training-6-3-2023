@@ -1,0 +1,37 @@
+/* Dowolny element li w dowolnym ul */
+ul li {
+    color: red;
+}
+
+/* dowolny li w dowolnym ul w dowolnym ul */
+ul ul li {
+    color: blue;
+}
+
+/* elementu ul będący dzieckiem elementu main */
+main > ul {
+    padding: 20px;
+    background-color: #bbb;
+}
+
+/* stylujemy .main-box oraz .secondary-box */
+.main-box, .secondary-box {
+    background: #eee;
+    color: #333;
+    padding: 20px;
+}
+
+.main-box.big {
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* element strong poprzedzony p w którymś miejscu */
+p ~ strong {
+    color: red;
+}
+
+/* element stront bezpośrednio poprzedzony p */
+p + strong {
+    color: blue;
+}
