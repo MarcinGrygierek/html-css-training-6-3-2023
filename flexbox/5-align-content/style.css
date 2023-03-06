@@ -1,0 +1,35 @@
+.box {
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    width: 150px;
+    margin: 5px;
+}
+
+.box-1 {
+    height: 50px;
+}
+
+.box-2 {
+    height: 150px;
+}
+
+.box-3 {
+    height: 100px;
+}
+
+.box-4 {
+    height: 120px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* wrap sprawia ze jezeli element w swojej oryginalnej szerokości nie mieści się w kontenerze
+    to spada nizej */
+    flex-wrap: wrap;
+    /* pozwala na wyrównanie wszystkich wierszy na raz - zauwazalne przede wszystkim w sytuacji kiedy posiadamy więcej niz jeden wiersz */
+    align-content: center;
+}
