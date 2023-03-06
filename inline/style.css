@@ -1,0 +1,15 @@
+strong {
+    color: red;
+    background-color: #aaa;
+    width: 150px;
+    height: 80px;
+    margin: 50px;
+    padding: 50px;
+    /* zmieniamy sposób wyświetlania na blokowy - 
+    co umozliwia nadanie wymiarów i marginesów */
+    /* display: block; */
+
+    /* zmieniamy sposób wyswietlania na liniowo blokowy - 
+    co umozliwia nadanie wymiarów i marginesów ORAZ zachowanie elementu w jednej linii */
+    display: inline-block;
+}
