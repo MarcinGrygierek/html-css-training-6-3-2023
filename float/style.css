@@ -1,0 +1,20 @@
+.box {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+
+.box-container::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.box-1 {
+    float: left;
+}
+
+.box-2 {
+    float: right;
+}

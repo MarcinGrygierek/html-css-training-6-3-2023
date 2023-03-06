@@ -1,0 +1,12 @@
+.box {
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.box-container {
+    display: flex;
+}

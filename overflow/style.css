@@ -1,0 +1,13 @@
+.box {
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    /* overflow: auto pozwala na automatyczne dopasowanie rodzica
+    - dodanie scrolla pionowego i poziomego */
+    /* overflow: auto; */
+
+    /* mozemy rozbić na osobne osie - w tym przypadku
+    zablokowanie pionowego scrolla */
+    overflow-x: auto;
+    overflow-y: hidden;
+}

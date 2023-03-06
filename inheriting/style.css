@@ -1,0 +1,9 @@
+.parent {
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
