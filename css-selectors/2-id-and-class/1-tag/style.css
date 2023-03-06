@@ -1,0 +1,16 @@
+.main-block {
+    color: #333;
+    background-color: #d16c6c;
+    padding: 50px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#special-block {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}

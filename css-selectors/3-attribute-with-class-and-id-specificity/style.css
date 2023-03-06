@@ -1,0 +1,20 @@
+#premium-input {
+    color: red;
+}
+
+.form-control {
+    border: 1px solid #333;
+    padding: 20px;
+    display: block;
+    width: 250px;
+    margin: 10px;
+    color: black;
+}
+
+[type="text"] {
+    color: green;
+}
+
+[type="number"] {
+    color: orange;
+}
